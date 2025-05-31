@@ -20,7 +20,7 @@ jobs:
         run: echo 'say hello3'
         
   build-api:
-    needs: builds  
-    runs-on: ubuntu-latest
-      steps:
-        run: echo 'testing the needs build last step'
+    needs: builds
+    runs-on: windows-latest
+    steps:
+       - run: echo "testing the needs build last step"
