@@ -22,5 +22,5 @@ jobs:
   build-api:
     needs: builds  
     runs-on: ubuntu-latest
-    steps:
-      run: echo 'testing the needs build last step'
+      steps:
+        run: echo 'testing the needs build last step'
